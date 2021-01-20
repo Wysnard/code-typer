@@ -1,0 +1,7 @@
+query Random($language: String!) {
+  random(language: $language) {
+    repository
+    name
+    content
+  }
+}
